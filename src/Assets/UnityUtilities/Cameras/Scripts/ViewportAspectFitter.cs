@@ -42,10 +42,10 @@ namespace HassakuLab.Utils.Cameras
         private void Awake()
         {
             _camera = GetComponent<Camera>();
-            adjustRect();
+            AdjustRect();
         }
 
-        private void adjustRect()
+        private void AdjustRect()
         {
             float gameAspect = AspectRatio;
             float containerAspect = ContainerAspectRatio;
